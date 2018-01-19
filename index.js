@@ -8,7 +8,7 @@ const express = require('express');
 const session = require('express-session');
 const https = require('https');
 
-const WebRobot = require('./core/index.js');
+const WebRobot = require('./core.js');
 const CDP = require('chrome-remote-interface');
 
 const chromeexecpath = '/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary';

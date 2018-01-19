@@ -1,13 +1,17 @@
 {
   "name": "web-robot-headless",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Web Headless form filling robot.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "José Augusto Paiva",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zepspaiva/web-robot-headless.git"
+  },
   "dependencies": {
     "chrome-remote-interface": "^0.25.5",
     "colors": "^1.1.2",
